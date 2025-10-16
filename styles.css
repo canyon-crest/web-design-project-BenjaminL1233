@@ -1,12 +1,59 @@
 body{
     background-color: #afcfd3;
-      color:rgb(0, 0, 0);
+    color:rgb(0, 0, 0);
+    font-family: arial;
+}
+h1{
+    background-color: rgb(255, 255, 255);
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 60%;
+    margin: 20px auto;
+    font-family: georgia;
+}
+h2{
+    font-size: 1.3em;
+    text-align: center;
+    font-style: italic;
+}
+h3{
+    padding: 15px;
+    border-left: 20px groove rgb(84, 84, 84);
+    padding-left: 15px;
+    border-radius: 15px;
+    border-bottom: 2px solid #1c1b1b;
+    width: 125px;
+    background-color: rgb(80, 159, 159);
 }
 p{
     line-height: 2.2em;
+    background-color: #60c8ca;
+    padding: 20px;
+    border: 2px dotted black;
 }
 
 img{
     width: 300px;
-    float: right;
+    border: 3px solid rgb(44, 64, 217);
+    border-radius: 15px;
+    float: left;
+    margin-right: 20px;
 }
+/* PSEUDO SELECTORS */
+a:link{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited{
+    color: rgb(120, 0, 0)
+}
+a:hover{
+    color: rgb(189, 29, 29);
+}
+a:active{
+    color: black;
+}
+/* ID RULES */
